@@ -5,10 +5,19 @@
   cursor: pointer;
   color: #0088cc;
 }
+
+h2 {
+  float: right;
+}
+
 img {
   width: 50%;
 }
 
 .clickable:hover {
   text-decoration: underline;
+}
+
+.hide-image {
+  display: none;
 }
