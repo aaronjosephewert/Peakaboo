@@ -6,6 +6,10 @@
   color: #0088cc;
 }
 
+.walrus-facts {
+  display: none;
+}
+
 h2 {
   float: right;
 }
@@ -15,6 +19,15 @@ img {
 }
 
 .clickable:hover {
+  text-decoration: underline;
+}
+
+.clickable-facts {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable-facts:hover {
   text-decoration: underline;
 }
 
